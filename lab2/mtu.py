@@ -17,11 +17,11 @@ def ping(mtu, host, count):
         stderr=subprocess.PIPE,
         universal_newlines=True
     )
-    print('returncode', res.returncode)
     code = 1
+    if res.returncode == 2:
+        exit(2)
     if res.returncode == 0:
         code = 0
-    print(mtu, 'processed return code =', code)
     return code, "", res.stderr
 
 
