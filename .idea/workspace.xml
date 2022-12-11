@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29e1586d-825a-4ffb-9610-b866f12182dc" name="Default Changelist" comment="" />
+    <list default="true" id="29e1586d-825a-4ffb-9610-b866f12182dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lab4/png1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/png2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/png3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,13 +47,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab4" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lab1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab4" />
+      <recent name="$PROJECT_DIR$/lab3" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -112,6 +120,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="109" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1670603422808" />
+    <state x="448" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1670691401378">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="448" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1670691401378" />
     <state width="1419" height="304" key="GridCell.Tab.0.bottom" timestamp="1670602915018">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
