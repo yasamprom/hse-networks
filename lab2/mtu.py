@@ -1,5 +1,6 @@
 import argparse
 import logging
+import os
 import subprocess
 import platform
 
@@ -42,7 +43,20 @@ def process(ping_count: int,
     if verb_mode == '1':
         logging.info("verbose on")
 
-    l, r = 36, 1491
+    reachable = True if os.system("ping -c 1 " + host) is 0 else False
+    if not reachable:
+        exit(2)
+
+    disabled = subprocess.run(
+        ["cat", "/proc/sys/net/ipv4/icmp_echo_ignore_all"],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        universal_newlines=True,
+    )
+    if disabled.stdout == 1:
+        print('ICMP is disabled. Enable it')
+        exit(1)
+    l, r = 0, 1491
     while l < r - 1:
         m = (l + r) // 2
         res = ping(m, host, cnt)
